@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>How to create an AJAX contact form using HTML5,PHP,jQuery and CSS</title>
+    <link rel="stylesheet" href="style.css" type="text/css" required />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <form class="contactform" action="" method="POST" name="contactform" id="contactform">
+
+        <div class="errorwrap">
+          <div class="error">Error!</div>
+          <div class="success">Submitted!</div>
+        </div>
+
+        <div class="input-fields">
+          <label>First Name: </label>
+          <input class="text" type="text" name="firstname" id="firstname" required />
+        </div>
+
+        <div class="input-fields">
+          <label>Last Name: </label>
+            <input class="text" type="text" name="lastname" id="lastname" required />
+        </div>
+
+        <div class="input-fields">
+          <label>Email: </label>
+            <input class="text" type="email" name="email" id="email" required />
+        </div>
+
+        <div class="input-fields">
+          <label>Phone No: </label>
+            <input class="text" type="text" name="phoneno" id="phoneno" required />
+        </div>
+
+        <div class="input-fields">
+          <label>Company: </label>
+            <input class="text" type="text" name="company" id="company" required />
+        </div>
+        
+        <div class="buttons">
+          <input type="submit" value="Submit" />
+        </div>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
