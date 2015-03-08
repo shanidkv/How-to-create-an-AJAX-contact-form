@@ -6,7 +6,7 @@
 	$phoneno	=	$_POST['phoneno'];
 	$company	=	$_POST['company'];
 	
-	$to = 'shanidkannur@gmail.com';
+	$to = 'mail@shanidkv.com';
 	$subject = 'Contact Form';
 	$msg = "First Name: $firstname\nLast Name: $lastname\nEmail: $email\nPhone No: $phoneno\nCompany: $company";
 	mail($to, $firstname, $msg);
